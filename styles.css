@@ -1,0 +1,99 @@
+body {
+    color: red;
+    margin: auto;
+    padding: 30px;
+    width: 600px;
+    background-image: url("https://images.unsplash.com/photo-1518514854541-fe58ae2a5ef1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHVuaXZlcnNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Black Han Sans';
+}
+
+#survey-form {
+    font-size: 20px;
+    font-family: KoHo;
+    margin: 0 auto;
+    color: black;
+    width: 92%;
+    padding: 50px 0 50px 50px;
+    background-color: rgb(220, 220, 220);
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+    color: white;
+}
+
+#description {
+    color: rgb(217, 227, 216);
+    text-align: center;
+    font-family: KoHo;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#dropbox,
+#recommend,
+p#wanna.wanna,
+#comment {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#name,
+#email {
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#name:hover,
+#email:hover {
+    padding: 15px 25px 15px 20px;
+    background-color: cyan;
+}
+
+#number:hover,
+#dropdown:hover {
+    background-color: cyan;
+}
+
+#number {
+    margin: 10px;
+    width: 10%;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#dropdown {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+textarea#comment {
+    width: 85%;
+    height: 100px;
+    font-size: 12px;
+    padding: 20px
+}
+
+input#submit {
+    border-radius: 10px;
+    margin: 20px 0 0 220px;
+    padding: 15px;
+    background-color: white;
+}
+
+#submit:hover {
+    background-color: tomato;
+}
